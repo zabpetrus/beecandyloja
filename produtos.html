@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Loja de Roupas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="pragma" content="no-cache" >
+        <meta http-equiv="cache-control" content="no-cache" >
+        <link rel="icon" href="img/favicon.png" type="image/x-icon" >
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet" type="text/CSS" >
+        <link href="css/produtos.css" rel="stylesheet" type="text/CSS" >
+    </head>
+    <body>
+        <article>
+            <!-- Inicio Header -->
+            <header>
+                <section id="upper_bar">
+                    <!-- Float left -->
+                    <div>
+                        <h1><img src="img/logo_titulo.svg" alt="logo" width="30" ><p>Bee Candy Modas</p></h1>
+                    </div>
+                    <!-- Float right -->
+                    <section>
+                        <div>
+                            <span id="cont">0</span>
+                            <a id="curti_icon" href="javascript:abreform()"><img src="img/coracao.svg" alt="curti"></a>
+                            <p>
+                                <a href="login.html" id="cookie" > Login  </a>
+                            </p>
+                        </div>
+                        <form method="GET">
+                            <button type="submit"> <img src="img/search.svg" alt="Procurar" width="30" > </button>
+                            <input type="search" placeholder="Procurar" id="procura" name="procura" >
+                        </form>
+                    </section>
+                </section>
+
+                <nav id="main_nav">
+                    <ul>
+                        <li><a class="btn" href="index.html">Home</a></li>
+                        <li><a class="active" href="produtos.html">Produtos</a></li>
+                        <li><a class="logo" href="index.html"><img src="img/logo.svg" alt="logo" ></a></li>
+                        <li><a class="btn" href="galeria.html">Galeria</a></li>
+                        <li><a class="btn" href="sobre.html">Sobre nós</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <!-- Fim Header -->
+
+            <!-- Inicio Content -->
+            <article id="content">
+
+                    <h1>Produtos</h1>
+
+                <section id="lateral_bar">
+
+                    <p>Procurar </p>
+                    <input type="text" placeholder="Bee Candy" id="pr" >
+                    <button id="procura_produto" type="button">Procurar</button>
+
+                    <p>Categorias </p>
+                    <select id="categorias">
+                            <option value="">Escolha um</option>
+                            <option value="primavera">Primavera</option>
+                            <option value="verão">Verão</option>
+                            <option value="urbana">Urbana</option>
+                    </select>
+
+                    <div>
+                        <p>Filtros</p>
+                        <input type="radio" onclick="check_boxes(this.value)" name="roupa" value="Saia"> Saias<br>
+                        <input type="radio" onclick="check_boxes(this.value)" name="roupa" value="Camiseta"> Camisetas<br>
+                        <input type="radio" onclick="check_boxes(this.value)" name="roupa" value="Vestido"> Vestidos<br>
+                        <input type="radio" onclick="check_boxes(this.value)" name="roupa" value="Blazer"> Blazers<br>
+                        <input type="radio" onclick="check_boxes(this.value)" name="roupa" value="Macacão"> Macacões<br>
+                    </div>
+
+                    <div id="resultado_filtros"></div>
+
+                    <div id="cores">
+                        <p style="cursor: pointer;" onclick="resetBox()">Cores</p>
+                        <a href="javascript:mostraCor('floral')" style="background-image: url('img/produtos/pattern_floral.png'); background-size: contain;" ></a>
+                        <a href="javascript:mostraCor('preto')" style="background-color: black;" ><input type="hidden" value="preto" name="cor"></a>
+                        <a href="javascript:mostraCor('xadrez')" style="background-image: url('img/produtos/pattern_zadrez.png'); background-size: contain;" ><input type="hidden" value="xadrez" name="cor"></a>
+                        <a href="javascript:mostraCor('cinza')" style="background-color: gray;" ><input type="hidden" value="cinza" name="cor"></a>
+                        <a href="javascript:mostraCor('listrado')" style="background-image: url('img/produtos/pattern_listrado.png'); background-size: contain;" ><input type="hidden" value="cor" name="listrado"></a>
+                        <a href="javascript:mostraCor('oliva')" style="background-color: rgb(86, 90, 76);" ><input type="hidden" value="cor" name="oliva"></a>
+                        <a href="javascript:mostraCor('bolinhas')" style="background-image: url('img/produtos/pattern_bolinhas.png'); background-size: contain;" ><input type="hidden" value="bolinhas" name="orangered"></a>
+                        <a href="javascript:mostraCor('rosa')" style="background-color: rgb(246, 210, 218);"  ><input type="hidden" value="rosa" name="red"></a>
+                    </div>
+
+                </section>
+
+                <section id="galeria_produtos">
+
+                    <section>
+                        <div class="block_container">
+                            <img src="img/produtos/modaderua1.jpg" alt="Jardineira midi jeans e Camiseta listrada" class="image" data-cor="listrado" data-collection="urbana">
+                            <div class="overlay">
+                                <div class="text">
+                                    Conjunto jardineira jeans preta e camisa listrada
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="block_container">
+                            <img src="img/produtos/modaprimavera1.jpg" alt="Vestido girassol longo" class="image" data-cor="floral" data-collection="primavera" >
+                            <div class="overlay">
+                            <div class="text">
+                                Vestido girassol azul marinho
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="block_container">
+                            <img src="img/produtos/modaverao1.jpg" alt="Conjunto Camiseta gola alta e calça florido" class="image" data-cor="floral" data-collection="primavera">
+                            <div class="overlay">
+                            <div class="text">Conjunto camisa e calça tropicalia</div>
+                            </div>
+                        </div>
+
+                        <div class="block_container">
+                            <img src="img/produtos/modaderua2.jpg" alt="Top cinza e Blazer cinza" class="image" data-cor="cinza" data-collection="urbana">
+                            <div class="overlay">
+                            <div class="text">Top cinza e Blazer cinza</div>
+                            </div>
+                        </div>
+
+                        <div class="block_container">
+                            <img src="img/produtos/modaprimavera2.jpg" alt="Vestido floral oriental" class="image" data-cor="floral" data-collection="primavera">
+                            <div class="overlay">
+                            <div class="text">Vestido floral oriental</div>
+                            </div>
+                        </div>
+
+                        <div class="block_container">
+                            <img src="img/produtos/modaverao2.jpg" alt="Macacão verde oliveira" class="image" data-cor="oliva" data-collection="verão">
+                            <div class="overlay">
+                                <div class="text">Macacão oliveira</div>
+                            </div>
+                        </div>
+
+                        <div class="block_container">
+                            <img src="img/produtos/look-black-1.jpg" alt="Blazer, Camiseta regata com gola v e calça preta" class="image" data-cor="preto" data-collection="urbana">
+                            <div class="overlay">
+                            <div class="text">Blazer e calça pretas</div>
+                            </div>
+                        </div>
+
+                        <div class="block_container">
+                            <img src="img/produtos/modaderua3.jpg" alt="Conjunto jaqueta verde, Camiseta com bolinhas e calça jeans" class="image" data-cor="bolinhas" data-collection="verão">
+                            <div class="overlay">
+                            <div class="text">Conjunto jaqueta e calça jeans</div>
+                            </div>
+                        </div>
+
+                        <div class="block_container">
+                            <img src="img/produtos/modaverao3.jpg" alt="Conjunto Camiseta e bermudão listrado cinza oliveira" class="image" data-cor="cinza" data-collection="urbana">
+                            <div class="overlay">
+                            <div class="text">Conjunto blusa e bermudão oliveira</div>
+                            </div>
+                        </div>
+
+                        <div class="block_container">
+                            <img src="img/produtos/modalistrado1.jpg" alt="Vestido listrado Longo" class="image" data-cor="listrado" data-collection="verão" >
+                            <div class="overlay">
+                            <div class="text">Vestido listrado Longo</div>
+                            </div>
+                        </div>
+
+                        <div class="block_container">
+                            <img src="img/produtos/moda-preto.jpg" alt="Camiseta regata e calça midi preta" class="image" data-cor="preto" data-collection="urbana">
+                            <div class="overlay">
+                            <div class="text">Blusa e calça pretas</div>
+                            </div>
+                        </div>
+
+                        <div class="block_container">
+                            <img src="img/produtos/pontilhado1.jpg" alt="Calça midi preta e Camiseta com bolinhas pretas de manga comprida" class="image" data-cor="bolinhas" data-collection="verão">
+                            <div class="overlay">
+                            <div class="text">Calça preta e blusa pontilhada de manga comprida</div>
+                            </div>
+                        </div>
+
+                        <div class="block_container">
+                            <img src="img/produtos/xadrez.jpg" alt="Vestido xadrez vermelho" class="image" data-cor="xadrez" data-collection="primavera" >
+                            <div class="overlay">
+                            <div class="text">Vestido xadrez vermelho</div>
+                            </div>
+                        </div>
+
+                        <div class="block_container">
+                            <img src="img/produtos/rosa1.jpg" alt="Camiseta rosa e Saia estampada" class="image" data-cor="rosa" data-collection="primavera">
+                            <div class="overlay">
+                            <div class="text">Blusa rosa e saia estampada</div>
+                            </div>
+                        </div>
+
+                    </section>
+
+                </section>
+
+                <section class="space the_box">
+                    <img src="img/recorte.png" alt="BeeCandy. Sempre com você!!!" >
+                </section>
+
+            </article>
+            <!-- Fim Content -->
+
+            <!-- Inicio Footer -->
+            <footer>
+                <section class="info">
+                    <nav id="footer_nav">
+                        <ul>
+                            <li><a href="home.hmtl">Home</a></li>
+                            <li><a href="galeria.html">Galeria</a></li>
+                            <li><a href="produtos.html">Galeria</a></li>
+                            <li><a href="sobre.html">Sobre</a></li>
+                            <li><a href="login.html">Login</a></li>
+                        </ul>
+                    </nav>
+                    <section id="social">
+                        <div>
+                            <p>Redes Sociais</p>
+                            <ul>
+                                <li><a href="https://www.facebook.com/"><img src="img/facebook.svg" alt="facebook" ></a></li>
+                                <li><a href="https://twitter.com/"><img src="img/twitter.svg" alt="facebook" ></a></li>
+                                <li><a href="https://www.youtube.com/"><img src="img/youtube.svg" alt="facebook" ></a></li>
+                                <li><a href="https://www.instagram.com/?hl=pt-br"><img src="img/instagram.svg" alt="facebook" ></a></li>
+                            </ul>
+                        </div>
+                    </section>
+                </section>
+
+                <section id="copyright">
+                    <p>@Autora: Izabel Santos | Todos os direitos Reservados</p>
+                </section>
+            </footer>
+            <!-- Fim Footer -->
+        </article>
+
+        <article id="modal" class="hide">
+            <section id="aux">
+                <a class="fecha" href="javascript:fechaform()" >
+                    <img src="img/fechar.svg" width="30" >
+                </a>
+                <p>Olá!!!</p>
+            </section>
+        </article>
+
+    </body>
+    <script type="text/javascript" async src="js/produtos.script.js"></script>
+    <script type="text/javascript" src="js/main.script.js"></script>
+</html>

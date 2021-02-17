@@ -1,0 +1,239 @@
+/* CSS Document */
+
+#content
+{
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0 0px 20px 10px rgba(3,3,3,0.3);
+    height: 100%;
+    box-sizing: border-box;
+    line-height: 2.0em;
+    text-align: justify;
+    text-justify:auto;
+    overflow: hidden;
+    padding-top: 50px;     
+}
+
+#content #galeria
+{
+    padding: 0 5%;
+    text-align: center;
+}
+
+#content #galeria h1
+{
+    display: block;
+    color: rosybrown;
+    font-size: 35px;
+    line-height: 2.0em;
+}
+
+#content #galeria section
+{
+    max-height: 600px;
+    overflow: scroll;
+}
+
+#content #galeria section::-webkit-scrollbar
+{
+    width: 20px;
+}
+
+#content #galeria section::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 10px;
+}
+
+#content #galeria section::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+}
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.column img:hover
+{
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+@media screen and (max-width: 800px) {
+    .column
+    {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column 
+    {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+#colecoes
+{
+    width: 100%;    
+    background: url(../img/street.jpg) no-repeat center;   
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+#colecoes p
+{
+    font-size: 38px;
+    color: white;
+    z-index: 9999;
+    width: 50%;
+    position: absolute; 
+    right: 0;
+    top: 20%;  
+}
+
+#colecoes img
+{
+    position: relative;
+    width: 40%;
+    top: -150px;
+    box-shadow: 0 10px 10px 10px rgb(35, 31, 32);
+}
+
+#colecoes svg
+{
+    position: absolute;
+    right: -40%;
+    top: 50px;
+}
+
+#gallery_bar
+{
+    width: 100%;
+    border-top: solid 1px rgb(226, 205, 181);
+    border-bottom: solid 1px rgb(226, 205, 181);
+    margin-bottom: 10px;    
+}
+
+#gallery_bar div
+{ 
+    text-align: left;    
+    overflow: hidden;    
+}
+
+#content section
+{
+    clear: both;
+}
+
+.lcovers,
+.rcovers
+{
+    margin-right: 20px;
+}
+
+#gallery_bar .lcovers
+{
+    float: left;
+}
+
+#gallery_bar .rcovers
+{
+    float: right;
+}
+
+#gallery_bar label
+{
+    display: block;
+}
+
+#gallery_bar button
+{
+    background-color: white;
+    display: block;
+    padding: 5px;    
+    border: dotted 2px rgb(226, 205, 181);    
+}
+
+#gallery_bar button img
+{
+    margin-bottom: -5px; 
+}
+
+#gallery_bar button :hover
+{
+    background-color: rgba(248, 221, 195, 0.2);
+}
+
+#gallery_bar button,
+#gallery_bar input
+{
+    float: left;
+}
+
+#gallery_bar input
+{
+    padding: 10px;
+}
+
+#gallery_bar input,
+#gallery_bar select
+{
+    display: block;
+    border: solid 1px chocolate;       
+}
+
+#gallery_bar select
+{
+    padding: 10px 50px 10px 0px; 
+}
+
+.hide
+{
+    display: none;
+}
+
+.show
+{
+    display: block;
+}
+
+.vanilla
+{        
+    position: relative;
+    display: block;
+    font-size: 50px;    
+    opacity: 0;    
+    height: 35px;
+    margin-bottom: -33px;    
+    top: -55px;
+    background-color: rgb(247, 200, 183);
+}
+
+.vanilla:hover
+{
+    opacity: 1;
+}
+

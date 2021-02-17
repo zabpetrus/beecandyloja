@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Loja de Roupas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="pragma" content="no-cache" >
+        <meta http-equiv="cache-control" content="no-cache" >
+        <link rel="icon" href="img/favicon.png" type="image/x-icon" >
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet" type="text/CSS" >
+        <link href="css/galeria.css" rel="stylesheet" type="text/CSS" >
+    </head>
+    <body>
+        <article>
+            <!-- Inicio Header -->
+            <header>
+                <section id="upper_bar">
+                    <!-- Float left -->
+                    <div>
+                        <h1><img src="img/logo_titulo.svg" alt="logo" width="30" ><p>Bee Candy Modas</p></h1>
+                    </div>
+                    <!-- Float right -->
+                    <section>
+                        <div>
+                            <span id="cont">0</span>                            
+                            <a id="curti_icon" href="javascript:abreform()"><img src="img/coracao.svg" alt="curti"></a>
+                            <p>
+                                <a href="login.html" id="cookie" > Login  </a>
+                            </p>
+                        </div>
+                        <form method="GET">
+                            <button type="submit"> <img src="img/search.svg" alt="Procurar" width="30" > </button>
+                            <input type="search" placeholder="Procurar" id="procura" name="procura" >
+                        </form>
+                    </section>
+                </section>
+
+                <nav id="main_nav">
+                    <ul>
+                        <li><a class="btn" href="index.html">Home</a></li>
+                        <li><a class="btn" href="produtos.html">Produtos</a></li>
+                        <li><a class="logo" href="index.html"><img src="img/logo.svg" alt="logo" ></a></li>
+                        <li><a class="active" href="galeria.html">Galeria</a></li>
+                        <li><a class="btn" href="sobre.html">Sobre nós</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <!-- Fim Header -->
+
+            <!-- Inicio Content -->
+            <article id="content">                                   
+                <section id="galeria"> <!-- galeria inicio -->
+
+                    <h1>Galeria</h1>
+
+                    <section id="gallery_bar">                       
+                        <div class="lcovers">
+                            <label for="collection">Coleção</label>
+                            <select id="collection" name="collection">
+                                <option value="">Todas</option>
+                                <option value="verão">Verão</option>
+                                <option value="primavera">Primavera</option>
+                                <option value="urbana">Urbana</option>
+                            </select>                            
+                        </div>
+
+                        <div class="lcovers">
+                            <label for="organization">Exibir</label>
+                            <select id="organization" name="organization">
+                                <option value="">Todos</option>
+                                <option value="lançamento">Lançamentos</option>
+                                <option value="classico">Modelos Clássicos</option>                                
+                            </select>                            
+                        </div>
+
+                        <div class="rcovers">
+                            <label for="searchgaleria">Procurar</label>
+                            <button id="btn_galeria_search"> <img src="img/search.svg" alt="Procurar" width="25" height="25" > </button>
+                            <input type="search" placeholder="Procurar" id="searchgaleria" name="searchgaleria" >
+                        </div>
+
+                    </section>
+
+                    <section id="mix">
+                        <div class="row">
+                            <div class="column">
+                                <img src="img/galeria/Anok-Yai.jpg" data-collection="urbana" data-organization="lançamento"  >                                        
+                                <img src="img/galeria/tubinho.jpg" data-collection="verão" data-organization="classico" >
+                                <img src="img/galeria/moda_classica.jpg" data-collection="primavera" data-organization="lançamento" >
+                                <img src="img/galeria/desfile1.jpg" data-collection="urbana" data-organization="classico" >
+                                <img src="img/galeria/images.jpg" data-collection="verão" data-organization="lançamento"  >
+                                <img src="img/galeria/evening-strolls.jpg" data-collection="urbana" data-organization="classico" >
+                                <img src="img/galeria/oculos.jpg" data-collection="urbana" data-organization="lançamento" >
+                                <img src="img/galeria/relax.jpg" data-collection="urbana" data-organization="classico" >
+                            </div>
+                            <div class="column">
+                                <img src="img/galeria/dess.jpg" data-collection="primavera" data-organization="classico" >
+                                <img src="img/galeria/shoes_fashion.jpg" data-collection="verão" data-organization="lançamento" >
+                                <img src="img/galeria/women_sweater.jpg" data-collection="verão" data-organization="classico" >
+                                <img src="img/galeria/black_girl_magic.jpg" data-collection="urbana" data-organization="classico" >
+                                <img src="img/galeria/london.jpg" data-collection="urbana" data-organization="classico" >
+                                <img src="img/galeria/fashionist.jpg" data-collection="primavera" data-organization="lançamento" >
+                                <img src="img/galeria/umma.jpg" data-collection="urbana" data-organization="lançamento">
+                            </div>
+                            <div class="column">
+                                <img src="img/galeria/model1.jpg" data-collection="urbana" data-organization="lançamento">                                
+                                <img src="img/galeria/sweet.jpg" data-collection="primavera" data-organization="classico" >
+                                <img src="img/galeria/macaquinho.jpg" data-collection="verão" data-organization="lançamento" >
+                                <img src="img/galeria/conjunto1.jpg" data-collection="urbana" data-organization="classico" >
+                                <img src="img/galeria/street_style.jpg" data-collection="urbana" data-organization="lançamento" >
+                                <img src="img/galeria/hat.jpg" data-collection="primavera" data-organization="classico" >
+                                <img src="img/galeria/oculos2.jpg" data-collection="urbana" data-organization="lançamento" >                                        
+                            </div>
+                            <div class="column">
+                                <img src="img/galeria/fashions.jpg" data-collection="urbana" data-organization="classico" >
+                                <img src="img/galeria/fashion_girl.jpg" data-collection="primavera" data-organization="lançamento" >                                
+                                <img src="img/galeria/pink.jpg"data-collection="primavera" data-organization="classico">
+                                <img src="img/galeria/Winnie_Harlow.jpg"data-collection="verão" data-organization="lançamento" >
+                                <img src="img/galeria/Deddeh_Howard.jpg"data-collection="urbana" data-organization="classico">
+                                <img src="img/galeria/shoes.jpg"data-collection="verão" data-organization="lançamento" >
+                                <img src="img/galeria/vestido_florido.jpg"data-collection="urbana" data-organization="lançamento" >
+                            </div>
+                        </div>
+                    </section>
+                </section> <!-- galeria final --> 
+                                
+            </article>
+            <!-- Fim Content -->
+
+            <!-- Inicio Destaques -->
+            <section id="colecoes">
+                    
+                <p>
+                    Mais do que uma moda de rua, essas tendências podem ser vistas no dia a dia. Aproveite e inspire-se!
+                </p> 
+                <img class="vb" src="img/model.png" alt="woman" >
+                
+                <svg width="100%" height="100%">
+                        <rect width="60%" height="200" id="ret" style="fill:rgb(0,0,0);" />
+                </svg>
+    
+            </section>
+            <!-- Fim Destaques -->
+            <footer>
+                <section class="info">
+                    <nav id="footer_nav">
+                        <ul>
+                            <li><a href="home.hmtl">Home</a></li>
+                            <li><a href="galeria.html">Galeria</a></li>
+                            <li><a href="produtos.html">Galeria</a></li>
+                            <li><a href="sobre.html">Sobre</a></li>
+                            <li><a href="login.html">Login</a></li>
+                        </ul>
+                    </nav>
+                    <section id="social">
+                        <div>
+                            <p>Redes Sociais</p>
+                            <ul>
+                                <li><a href="https://www.facebook.com/"><img src="img/facebook.svg" alt="facebook" ></a></li>
+                                <li><a href="https://twitter.com/"><img src="img/twitter.svg" alt="facebook" ></a></li>
+                                <li><a href="https://www.youtube.com/"><img src="img/youtube.svg" alt="facebook" ></a></li>
+                                <li><a href="https://www.instagram.com/?hl=pt-br"><img src="img/instagram.svg" alt="facebook" ></a></li>
+                            </ul>
+                        </div>
+                    </section>
+                </section>
+
+                <section id="copyright">
+                    <p>@Autora: Izabel Santos | Todos os direitos Reservados</p>
+                </section>
+            </footer>
+        </article>
+        
+        <article id="modal" class="hide">
+            <section id="aux">
+                <a class="fecha" href="javascript:fechaform()" >
+                    <img src="img/fechar.svg" width="30" >
+                </a> 
+                <p>Olá!!!</p>           
+            </section>
+        </article>
+        
+    </body>
+    <script type="text/javascript" async src="js/galeria.script.js"></script>
+    <script type="text/javascript" src="js/main.script.js"></script>
+</html>

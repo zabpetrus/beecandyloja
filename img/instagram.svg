@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1"
+	 id="svg864" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" sodipodi:docname="instagram.svg" inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px"
+	 viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<metadata  id="metadata861">
+	<rdf:RDF>
+		<cc:Work  rdf:about="">
+			<dc:format>image/svg+xml</dc:format>
+			<dc:type  rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+			<dc:title></dc:title>
+		</cc:Work>
+	</rdf:RDF>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  height="23.06" width="23.176" x="501.412" y="371.981" bottomLeftOrigin="true"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<path fill="#603813" d="M16.488,27.516c-1.679,0-3.358,0.01-5.036-0.002c-3.666-0.027-6.39-2.611-6.477-6.294
+	c-0.082-3.491-0.087-6.99,0.002-10.482c0.094-3.682,2.819-6.25,6.499-6.267c3.357-0.015,6.715-0.016,10.072,0
+	c3.666,0.018,6.39,2.609,6.478,6.291c0.082,3.492,0.086,6.99-0.002,10.482c-0.094,3.682-2.82,6.244-6.498,6.27
+	C19.846,27.523,18.167,27.516,16.488,27.516z M16.568,6.478c-1.645,0-3.289-0.014-4.932,0.003c-2.898,0.031-4.669,1.808-4.678,4.69
+	c-0.009,3.219-0.01,6.438,0,9.657c0.009,2.833,1.773,4.645,4.593,4.668c3.287,0.027,6.575,0.025,9.863,0.001
+	c2.833-0.022,4.615-1.82,4.626-4.636c0.013-3.254,0.013-6.507-0.001-9.76c-0.012-2.764-1.786-4.571-4.541-4.618
+	C19.855,6.456,18.212,6.479,16.568,6.478z"/>
+<path fill="#603813" d="M22.414,15.984c0.004,3.285-2.658,5.953-5.934,5.942c-3.274-0.009-5.917-2.688-5.896-5.981
+	c0.021-3.243,2.648-5.875,5.882-5.891C19.743,10.039,22.411,12.699,22.414,15.984z M16.461,19.895
+	c2.176,0.015,3.934-1.699,3.967-3.863c0.033-2.139-1.734-3.93-3.89-3.943c-2.177-0.013-3.933,1.698-3.966,3.866
+	C12.54,18.092,14.305,19.882,16.461,19.895z"/>
+<path fill="#603813" d="M24.169,9.855c-0.028,0.842-0.717,1.461-1.563,1.406c-0.785-0.051-1.394-0.721-1.369-1.507
+	c0.025-0.836,0.722-1.458,1.57-1.405C23.605,8.4,24.197,9.053,24.169,9.855z"/>
+</svg>

@@ -1,0 +1,137 @@
+/* Document CSS */
+
+#content
+{
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0 0px 20px 10px rgba(3,3,3,0.3);
+    height: 100%;
+    box-sizing: border-box;
+    line-height: 2.0em;
+    text-align: justify;
+    text-justify: distribute-all-lines;   
+    overflow: hidden;
+    padding-top: 50px;    
+    
+}
+
+.message_about
+{
+    float: right;
+    width: 70%;
+    border-left: solid 1px grey;
+    padding-left: 40px;  
+    padding-right: 40px;          
+}
+
+.marketing
+{
+    float: left;    
+    width: 30%;  
+    background-color: rgba(198, 156, 109, 0.1);     
+    text-align: center;   
+}
+
+
+.message_about p
+{
+    padding: 20px 0;
+}
+
+.message_about h1
+{
+    color: rgba(209, 175, 137, 1);
+    font-size: 35px;
+    line-height: 2.0em;
+}
+
+.message_about figure
+{
+    box-sizing: border-box; 
+    text-align: center;   
+    overflow: hidden;    
+}
+
+.message_about figure img
+{
+    position: relative;
+    width: 100%;   /*Importante - escalona a imagem. Se não botar, a imagem fica com sua resolução máxima*/ 
+}
+
+.message_about figure figcaption
+{
+    color: rgba(209, 175, 137, 1);
+}
+
+.marketing video
+{
+    margin: 0 auto;         
+    background-color: blueviolet;
+}
+
+.market_off_shore
+{
+    background-color: rgba(96, 56, 19, 1);
+    width: 100%;    
+    overflow: hidden; 
+    padding: 20px 5%;   
+}
+
+.market_off_shore #map,
+.market_off_shore #localization
+{
+    padding: 0 10%;
+}
+
+
+.market_off_shore #map iframe
+{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    height: 300px;
+}
+
+.market_off_shore #localization
+{
+    float: right;
+    width: 50%;    
+}
+
+.market_off_shore #localization h2,
+.market_off_shore #localization p
+{
+    color:white;
+}
+
+.market_off_shore #localization h2
+{
+    line-height: 4.0em;
+}
+
+.market_off_shore #localization p
+{
+    display: block;
+    font-family: 'Raleway', sans-serif;   
+    line-height: 2.0em;        
+    float: left;
+}
+
+.marketing aside
+{
+    display: block;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+}
+
+.marketing aside img
+{
+    width: 65%;
+}
+
+.marketing aside iframe
+{
+    width: 65%;
+    height: auto;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1"
+	 id="svg864" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" sodipodi:docname="search.svg" inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px"
+	 viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<metadata  id="metadata861">
+	<rdf:RDF>
+		<cc:Work  rdf:about="">
+			<dc:format>image/svg+xml</dc:format>
+			<dc:type  rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+			<dc:title></dc:title>
+		</cc:Work>
+	</rdf:RDF>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  height="23.665" width="23.665" x="499.667" y="372.668" bottomLeftOrigin="true"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<sodipodi:namedview  units="px" id="base" inkscape:cy="78.393012" inkscape:cx="121.23511" inkscape:zoom="0.7" borderopacity="1.0" showgrid="false" bordercolor="#666666" pagecolor="#ffffff" inkscape:window-maximized="1" inkscape:window-y="-8" inkscape:window-x="-8" inkscape:window-height="705" inkscape:window-width="1366" inkscape:current-layer="layer1" inkscape:document-units="mm" inkscape:pageshadow="2" inkscape:pageopacity="0.0">
+	</sodipodi:namedview>
+<g id="Excluir">
+	<polygon fill="#603813" points="18.124,9.195 14.998,12.321 11.873,9.196 9.194,11.874 12.32,15 9.194,18.127 11.873,20.805 
+		14.998,17.678 18.124,20.805 20.804,18.127 17.678,15 20.804,11.874 	"/>
+	<path fill="#603813" d="M23.365,6.633c-2.31-2.31-5.339-3.466-8.366-3.466c-3.028,0-6.057,1.156-8.367,3.466
+		c-4.62,4.621-4.62,12.113,0,16.734c2.31,2.311,5.339,3.465,8.367,3.465c3.027,0,6.057-1.154,8.366-3.465
+		C27.987,18.746,27.987,11.254,23.365,6.633z M22.058,22.061c-1.885,1.885-4.392,2.924-7.059,2.924c-2.667,0-5.174-1.039-7.06-2.924
+		C6.054,20.174,5.016,17.666,5.016,15c0-2.667,1.038-5.174,2.923-7.06c1.886-1.886,4.394-2.924,7.06-2.924
+		c2.667,0,5.174,1.038,7.059,2.924h0.001c1.886,1.885,2.925,4.393,2.925,7.06C24.983,17.666,23.944,20.174,22.058,22.061z"/>
+</g>
+</svg>

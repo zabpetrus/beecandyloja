@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Loja de Roupas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="pragma" content="no-cache" >
+        <meta http-equiv="cache-control" content="no-cache" >
+        <link rel="icon" href="img/favicon.png" type="image/x-icon" >
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+        <link href="css/login.css" rel="stylesheet" type="text/CSS" >
+    </head>
+    <body>
+        <article id="modal">
+            <form id="login">
+                <div><p>Login</p><img src="img/login.svg" width="30" ></div>
+                <label for="login">Username</label>
+                <input type="text" name="username" id="username" placeholder="Nome de Usuário" >
+                <span id="msg_error1"></span>
+
+                <label for="senha">Senha</label>
+                <input type="password" name="password" id="password" placeholder="Senha" >
+                <span id="msg_error2"></span>
+
+                <button id="submeter" type="button" >Entrar</button>
+
+                <a class="back" href="javascript:return_history()" > &laquo;Voltar</a>
+                <a class="seeme" href="javascript:alert('login: abc\nsenha: 123')" ><img src="img/info.png" width="20" height="20"></a>
+            </form>
+        </article>
+    </body>
+    <script type="text/javascript" async src="js/login.script.js"></script>
+    <script type="text/javascript" src="js/main.script.js"></script>
+</html>

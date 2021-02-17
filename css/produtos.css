@@ -1,0 +1,165 @@
+/*Document CSS*/
+
+#content
+{
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0 0px 20px 10px rgba(3,3,3,0.3);
+    height: 100%;
+    box-sizing: border-box;
+    line-height: 2.0em;
+    text-align: justify;
+    text-justify: distribute-all-lines;   
+    overflow: hidden;
+    height: 100%;       
+}
+
+#content h1
+{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: rosybrown;
+    width: 100%;
+    font-size: 35px;
+    line-height: 2.0em;
+}
+
+#content  #lateral_bar
+{
+    float: left;
+    width: 20%;   
+    overflow: hidden;
+    padding: 0 30px; 
+    box-sizing: border-box;    
+}
+
+#content #galeria_produtos
+{
+    float: right;    
+    width: 80%;
+    border-left: solid 1px chocolate;
+     padding-bottom: 50px;   
+}
+
+#content #galeria_produtos section
+{
+    flex-direction: row;   
+    flex-wrap: nowrap;    
+    overflow: hidden; 
+    position: relative;
+    left: 50px;  
+}
+
+#content #lateral_bar p
+{
+    display: block;
+    padding: 10px 0;
+    color: chocolate;
+}
+
+#content #lateral_bar input[type=text],
+#content #lateral_bar select
+{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: solid 1px chocolate
+}
+
+#resultado_filtros
+{
+    margin: 0 10px;
+    content: " " ;
+    background-color: lightsalmon;
+}
+
+.block_container 
+{
+    position: relative;
+    width: 20%;    
+    display: flex;
+    float: left;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    height: 250px;
+    overflow: hidden; 
+    box-shadow: 0 5px 5px 2px rgba(3,3,3,0.2);   
+}
+
+.image 
+{
+    display: block;
+    width: 100%; 
+    object-fit: cover;  
+}
+
+.overlay 
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(226, 205, 181);
+    background-color: rgba(226, 205, 181, 0.7);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.block_container:hover .overlay 
+{
+    height: 100%;
+}
+
+.text {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#cores a
+{
+    display: block;
+    float: left;
+    content: " ";
+    padding: 15px;
+    border-radius: 20px;
+    border: solid 2px chocolate;
+    margin: 5px;    
+}
+
+.space
+{
+    height: 400px;
+    background-color: rgb(248, 240, 233);
+}
+
+.space img
+{
+    width: 100%;
+}
+
+#procura_produto
+{
+    margin-top: 3px;
+    padding: 10px;
+}
+
+#procura_produto:hover
+{
+    background-color: peru;
+    cursor: pointer;
+}
+
+
+
